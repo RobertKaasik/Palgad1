@@ -49,6 +49,7 @@ while True:
 				break
 			elif pas not in APasswords:
 				print("Не верный пароль.")
+		break
 while True:
 	print("Что хотите посмотреть?\nCписок сотрудников-[0]\nЗарплата-[1]\nТоп сотрудников-[2]")
 	n=int(input())
