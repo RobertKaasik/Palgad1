@@ -26,7 +26,7 @@ print(spisok)
 #    text=input("Sisesta tekst:")
 #    f.write(text+"\n")
 #    f.close()
-#for i in range(1):
+#for i in range(1): 
 #    salvesta_failisse("Loetelu.txt")
 
 #def faili_sisu_umberkirjutamine(file:str,):

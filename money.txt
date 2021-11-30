@@ -1,0 +1,15 @@
+Sergei=[5000]
+
+Albert=[3500]
+
+Dima=[3000]
+
+Anton[2500]
+
+Egor=[3000]
+
+Vasya=[3000]
+
+Natalia[1500]
+
+Sveta[500]
