@@ -1,0 +1,17 @@
+﻿_____________________________
+№1 Sergei the salary 5000$	|
+				|
+№2 Albert the salary 3500$	|
+				|
+№3 Dima the salary 3250$	|
+				|
+№4 Egor the salary 3000$	|
+				|
+№5 Vasya the salary 3000$	|
+				|
+№6 Anton the salary 2500$	|
+				|
+№7 Natalia the salary 1540$	|
+				|
+№8 Sveta the salary 1400$	|
+________________________________|

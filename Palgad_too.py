@@ -1,20 +1,19 @@
 from Funktsioonid import *
 from too_failidega import *
 import time
-Admin=loe_failist_listisse("adminlog.txt")
-Inimesed=loe_failist_listisse("inimesed.txt")
-Palgad=loe_failist_listisse("palgad.txt")
-APasswords=loe_failist_listisse("administrator.txt")
-Passwords=loe_failist_listisse("passwords.txt")
+Admin=loe_failist_listisse("adminlog.txt")#Логин для входа в админ аккаунт
+Inimesed=loe_failist_listisse("inimesed.txt")#Логины для обычного персонала
+APasswords=loe_failist_listisse("administrator.txt")#Пароль для входа в админ аккаунт
+Passwords=loe_failist_listisse("passwords.txt")#Пароль для входа в обычный аккаунт персонала
 
-while True:
+while True:#бексонечный цикл пока не выполнится действие до конца или пока не брейкнут
 	print("Куда хотите войти?\nПользоватьель-[0]\nАдминистратор-[1]")
-	v=int(input())
+	v=int(input())#наш главный знак для взаимодействия
 	print("Идет вход...\n")
-	time.sleep(1.5)
+	time.sleep(1.5)#временно приостанавилвает код(для эффекта)
 	print("Синхронизация данных...\n")
 	time.sleep(3.5)
-	if v==0:
+	if v==0:#вход как обычный пользователь
 		print("Вход Пользователя...")
 		while 1:
 			time.sleep(2)
@@ -32,7 +31,7 @@ while True:
 				break
 			elif pas not in Passwords:
 				print("Не верный пароль.")
-	elif v==1:
+	elif v==1:#вход как админ
 		print("Вход Администрации...")
 		while 1:
 			time.sleep(2)
@@ -69,3 +68,5 @@ while True:
 	elif n==2:
 		print("Вход в топ сотрудников...")
 		time.sleep(1.5)
+		with open("top.txt", "r") as reader:
+			print(reader.read())
