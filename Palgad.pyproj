@@ -33,7 +33,6 @@
     <Content Include="inimesed.txt" />
     <Content Include="passwords.txt" />
     <Content Include="TextFile.txt" />
-    <Content Include="palgad.txt" />
     <Content Include="administrator.txt" />
     <Content Include="adminlog.txt" />
     <Content Include="money.txt" />

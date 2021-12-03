@@ -1,17 +1,15 @@
 ﻿_____________________________
-№1 Sergei the salary 5000$	|
+Top wealthy workers:		|
+#1 Sergei the salary 5000$	|
 				|
-№2 Albert the salary 3500$	|
+#2 Albert the salary 3500$	|
 				|
-№3 Dima the salary 3250$	|
+#3 Dima the salary 3250$	|
 				|
-№4 Egor the salary 3000$	|
+Top poor workers:		|
+#1 Anton the salary 2000$	|
 				|
-№5 Vasya the salary 3000$	|
+#2 Natalia the salary 1400$	|
 				|
-№6 Anton the salary 2500$	|
-				|
-№7 Natalia the salary 1540$	|
-				|
-№8 Sveta the salary 1400$	|
+#3 Sveta the salary 1000$	|
 ________________________________|
