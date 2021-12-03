@@ -1,10 +1,6 @@
 from Funktsioonid import *
 from too_failidega import *
 import time
-Admin=loe_failist_listisse("adminlog.txt")#Логин для входа в админ аккаунт
-Inimesed=loe_failist_listisse("inimesed.txt")#Логины для обычного персонала
-APasswords=loe_failist_listisse("administrator.txt")#Пароль для входа в админ аккаунт
-Passwords=loe_failist_listisse("passwords.txt")#Пароль для входа в обычный аккаунт персонала
 
 while True:
 	print("Что хотите посмотреть?\nCписок сотрудников-[0]\nЗарплата-[1]\nТоп сотрудников-[2]\nСредняя зарплата и какой человек ее получает-[3]")
