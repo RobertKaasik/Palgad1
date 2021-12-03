@@ -16,3 +16,6 @@ def add_person ():#добавляет людей и зарплату
 		inimesed.write(nimi+"\n")#вписываем имя ноового человека 
 	with open("palgad.txt", "a") as palgad: #добавляем зарплату в конец файла
 		palgad.write(palga+"\n")#вписываем пароль ноового человека 
+
+
+		https://github.com/KristinaPilipets/palgad
