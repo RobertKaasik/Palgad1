@@ -18,8 +18,6 @@ def loe_failist_listisse(file:str)->list:
         list_.append(stroka.strip())
     f.close()
     return list_
-spisok=loe_failist_listisse("TextFile.txt")
-print(spisok)
 
 #def salvesta_failisse(fail:str):
 #    f=open(fail, "a")
