@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>04f6501d-6739-49be-9f61-ad32e7921be2</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Palgad_too.py</StartupFile>
+    <StartupFile>Palga.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,19 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Funktsioonid.py">
+    <Compile Include="Module.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="too_failidega.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Palgad_too.py" />
+    <Compile Include="Palga.py" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="inimesed.txt" />
-    <Content Include="Normal_palgad.txt" />
-    <Content Include="money.txt" />
-    <Content Include="top.txt" />
+    <Content Include="human.txt" />
+    <Content Include="salary.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
