@@ -31,6 +31,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="inimesed.txt" />
+    <Content Include="Normal_palgad.txt" />
     <Content Include="passwords.txt" />
     <Content Include="TextFile.txt" />
     <Content Include="administrator.txt" />
