@@ -10,12 +10,36 @@ def lists()->list:#делаем лист из людей и зарплаты
 	return salary,human#Возвращает функции
 
 def add_person ():#добавляет людей и зарплату
-	nimi=input("Siseta nimi: ")#вписываем име
-	palga=input("Siseta palgad: ")#вписываем зарплату
-	with open("inimesed.txt", "a") as inimesed: #добавляем человека в конец файла
-		inimesed.write(nimi+"\n")#вписываем имя ноового человека 
-	with open("palgad.txt", "a") as palgad: #добавляем зарплату в конец файла
-		palgad.write(palga+"\n")#вписываем пароль ноового человека 
+	name=input("Введите име: ")#вписываем име
+	salarys=input("Введите зарплату: ")#вписываем зарплату
+	with open("human.txt", "a") as human: #добавляем человека в конец файла
+		human.write(nimi+"\n")#вписываем имя ноового человека 
+	with open("ssalary.txt", "a") as salary: #добавляем зарплату в конец файла
+		salary.write(palga+"\n")#вписываем пароль ноового человека
+
+def biggest_salary():#самая большая зарплата
+	salary,human=lists()#приравниваем к списку
+	suur=max(salary) # Ищим большое число и приравниванием его к переменной
+	a=salary.index(suur) # индекс = переменной
+	print("Самая большая зарплата у "+inimesed[a]+" зарплата")
+	
+def smallest_salary():#самая маленькая зарплата
+	salary,human=lists()
+	salaryS=salary.copy()
+	salaryS.sort()
+	b=salaryS[0]
+	a=salary.index(a)
+	print("Самамя маленькая зарплата у "+inimesed[b]+" зарплата составляет "+ palgadS[0]+" евро")
+
+def sorting():#Сортировка зарплат и имен(лестничным виде)
+	salaryS=[]
+	salary,human=lists()
+	salaaryS=ssalary.copy()
+	salarydS.sort()
+	for palk in salaryS:
+		b=salary.index(palk) # ищем индекс по переменной и приравниваем к другой переменной чтобы найти имя и зарплату в несортированых списках
+		print(salary[a]+" "+human[a])
+
 
 
 		https://github.com/KristinaPilipets/palgad
