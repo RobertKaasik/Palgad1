@@ -39,7 +39,17 @@ def sorting():#Сортировка зарплат и имен(лестничн�
 	for palk in salaryS:
 		b=salary.index(palk) # ищем индекс по переменной и приравниваем к другой переменной чтобы найти имя и зарплату в несортированых списках
 		print(salary[a]+" "+human[a])
-
-
-
-		https://github.com/KristinaPilipets/palgad
+def centre():#вычисление средней зарплаты
+	salary,human=lists()
+	summa=0#начальная сумма 0
+	for palk in salary:
+		summa+=float(palk)#вычисляем средную зарплату(начало)
+	centre=summa/len(salary)#Вычисляет зарплату(конец)
+	print("Средняя зарплата "+centre)
+	differences=0
+	if centre in palgad:
+		centre=human[palgad.index(centre)]
+		print(centre)
+	else:
+		centre="Отсутствует"
+		print(centre)
