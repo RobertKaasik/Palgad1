@@ -24,12 +24,12 @@ def biggest_salary():#самая большая зарплата
 	print("Самая большая зарплата у "+inimesed[a]+" зарплата")
 	
 def smallest_salary():#самая маленькая зарплата
-	salary,human=lists()
-	salaryS=salary.copy()
-	salaryS.sort()
-	b=salaryS[0]
-	a=salary.index(a)
-	print("Самамя маленькая зарплата у "+inimesed[b]+" зарплата составляет "+ palgadS[0]+" евро")
+	salary,human=lists()#приравниваем к списку
+	salaryS=salary.copy()#Копия зарплаты salary в SalaryS
+	salaryS.sort()#Сортировка SalaryS
+	b=salaryS[0]#б=SalaryS
+	a=salary.index(b)
+	print("Самамя маленькая зарплата у "+inimesed[a]+" зарплата составляет "+ SalaryS[0]+" евро")
 
 def sorting():#Сортировка зарплат и имен(лестничным виде)
 	salaryS=[]
@@ -46,9 +46,9 @@ def centre():#вычисление средней зарплаты
 		summa+=float(palk)#вычисляем средную зарплату(начало)
 	centre=summa/len(salary)#Вычисляет зарплату(конец)
 	print("Средняя зарплата "+centre)
-	differences=0
-	if centre in palgad:
-		centre=human[palgad.index(centre)]
+	differences=0#Различие
+	if centre in salary:
+		centre=human[salary.index(centre)]
 		print(centre)
 	else:
 		centre="Отсутствует"
